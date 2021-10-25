@@ -446,7 +446,7 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
-            "Exclude" = "11:TRUE"
+            "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -694,7 +694,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:ExpostatsExcel2013AddInSetup"
         "ProductCode" = "8:{F5656EEB-2A64-424F-B195-81F964029A58}"
-        "PackageCode" = "8:{A92194BE-684E-44F2-AF95-030A0125DDDE}"
+        "PackageCode" = "8:{5C83A65D-A9D9-4C07-AB53-E5600D0BE6EC}"
         "UpgradeCode" = "8:{64352B0B-31D4-4236-B74D-45A4734D9BC6}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
