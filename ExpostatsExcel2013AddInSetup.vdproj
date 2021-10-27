@@ -39,6 +39,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_4BFD5459407FC6EDAC40A742A8EF530E"
+        "OwnerKey" = "8:_84E4D6882DD84EA7933822235C1A7441"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_5B6018A37CFE55D6A8B0AB3185D085C4"
         "OwnerKey" = "8:_84E4D6882DD84EA7933822235C1A7441"
         "MsmSig" = "8:_UNDEFINED"
@@ -59,12 +65,6 @@
         {
         "MsmKey" = "8:_84E4D6882DD84EA7933822235C1A7441"
         "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_9A81F4FCBE12546E5A64FCBF84C975D3"
-        "OwnerKey" = "8:_84E4D6882DD84EA7933822235C1A7441"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -113,12 +113,6 @@
         {
         "MsmKey" = "8:_F6FB6AEFF3D8F2259E19993995BDB379"
         "OwnerKey" = "8:_84E4D6882DD84EA7933822235C1A7441"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_5B6018A37CFE55D6A8B0AB3185D085C4"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -173,6 +167,12 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_F6FB6AEFF3D8F2259E19993995BDB379"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_5B6018A37CFE55D6A8B0AB3185D085C4"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -357,6 +357,26 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4BFD5459407FC6EDAC40A742A8EF530E"
+            {
+            "SourcePath" = "8:ExpostatsExcel2013AddIn.tlb"
+            "TargetName" = "8:ExpostatsExcel2013AddIn.tlb"
+            "Tag" = "8:"
+            "Folder" = "8:_21A707BDCCD04A31A6A5F317F2157C87"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:2"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_5B6018A37CFE55D6A8B0AB3185D085C4"
             {
             "AssemblyRegister" = "3:1"
@@ -447,26 +467,6 @@
             "PackageAs" = "3:1"
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9A81F4FCBE12546E5A64FCBF84C975D3"
-            {
-            "SourcePath" = "8:ExpostatsExcel2013AddIn.tlb"
-            "TargetName" = "8:ExpostatsExcel2013AddIn.tlb"
-            "Tag" = "8:"
-            "Folder" = "8:_21A707BDCCD04A31A6A5F317F2157C87"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:2"
-            "Exclude" = "11:TRUE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -657,32 +657,9 @@
         }
         "LaunchCondition"
         {
-            "{836E08B8-0285-4809-BA42-01DB6754A45D}:_93068F028C114B0298EEF69ECABDE993"
-            {
-            "Name" = "8:Verify VSTO 2010 Runtime availability"
-            "Condition" = "8:VSTORUNTIMEREDIST >=\"10.0.30319\" OR OFFICERUNTIME>=\"10.0.21022\""
-            "Message" = "8:The Visual Studio 2010 Tools for Office Runtime is not installed. Please run Setup.exe to install the Add-in."
-            "InstallUrl" = "8:"
-            }
         }
         "Locator"
         {
-            "{CF66B7F7-B7DA-4B08-A67A-233430638C9C}:_1B6FBBC4FB404B498EA430DBB060E477"
-            {
-            "Name" = "8:Search for VSTO 2010 Runtime"
-            "Root" = "2:1"
-            "RegKey" = "8:SOFTWARE\\Microsoft\\VSTO Runtime Setup\\v4R"
-            "Value" = "8:Version"
-            "Property" = "8:VSTORUNTIMEREDIST"
-            }
-            "{CF66B7F7-B7DA-4B08-A67A-233430638C9C}:_9668949A3EA9449B83BC40F50B8B6428"
-            {
-            "Name" = "8:Search for Office VSTO Runtime"
-            "Root" = "2:1"
-            "RegKey" = "8:SOFTWARE\\Microsoft\\VSTO Runtime Setup\\v4"
-            "Value" = "8:Version"
-            "Property" = "8:OFFICERUNTIME"
-            }
         }
         "MsiBootstrapper"
         {
@@ -694,7 +671,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:ExpostatsExcel2013AddInSetup"
         "ProductCode" = "8:{F5656EEB-2A64-424F-B195-81F964029A58}"
-        "PackageCode" = "8:{5C83A65D-A9D9-4C07-AB53-E5600D0BE6EC}"
+        "PackageCode" = "8:{76CDF7AA-5EC2-4B44-AFFF-98E2C257A61B}"
         "UpgradeCode" = "8:{64352B0B-31D4-4236-B74D-45A4734D9BC6}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
